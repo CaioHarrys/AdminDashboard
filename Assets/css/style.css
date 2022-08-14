@@ -388,3 +388,16 @@ hr {
     aspect-ratio: auto 17 / 17;
     height: 17px;
 }
+
+/*MEDIA QUERYS*/
+@media screen and (max-width: 992.9px){
+    .cardiss{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row !important;
+        width: 100%;
+    }
+    .cardis-perfil{
+        margin: 1em 1em !important;
+    }
+}
