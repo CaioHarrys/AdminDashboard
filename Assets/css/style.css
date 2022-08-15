@@ -152,6 +152,7 @@ hr {
     padding: 3px 8px !important;
     background-color: #dcf23539;
     border-radius: 5px;
+    margin: 0px !important;
 }
 
 .view-txt {
@@ -378,7 +379,7 @@ hr {
     padding: 3px 6px;
 }
 
-.view-all:hover{
+.view-all:hover {
     background-color: rgba(109, 109, 251, 0.197);
     border-radius: 5px;
 }
@@ -389,15 +390,103 @@ hr {
     height: 17px;
 }
 
+.cardis-task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.block-1 {
+    display: flex;
+    width: 33.33%;
+    gap: 7px;
+}
+
+.block-2 {
+    display: flex;
+    width: 33.33%;
+    justify-content: center;
+}
+
+.block-3 {
+    display: flex;
+    width: 33.33%;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.blk-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.blk-1>img {
+    width: 17px;
+    aspect-ratio: auto 17 / 17;
+    height: 17px;
+}
+
+
 /*MEDIA QUERYS*/
-@media screen and (max-width: 992.9px){
-    .cardiss{
+@media screen and (max-width: 992.9px) {
+    .cardiss {
         display: flex;
         justify-content: space-between;
         flex-direction: row !important;
         width: 100%;
     }
-    .cardis-perfil{
-        margin: 1em 1em !important;
+
+    .cardis-perfil {
+        padding: 1em 1em !important;
+        margin: 5px;
+    }
+
+    .card-1 {
+        width: 50% !important;
+    }
+
+    .tt-cards{
+        gap: 2px;
+    }
+
+    .tt-cards-txt {
+        width: 100%;
+    }
+
+    .tt-cards>img {
+        width: 42px;
+        aspect-ratio: auto 42 / 42;
+        height: 42px;
+    }
+
+    /*Final Task Section*/
+    .cardis-task {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .block-1 {
+        display: flex;
+        width: 100%;
+        gap: 7px;
+        padding-bottom: 2em;
+    }
+
+    .block-2 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 2em;
+    }
+
+    .block-3 {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
     }
 }
