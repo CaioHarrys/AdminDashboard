@@ -436,6 +436,13 @@ hr {
     height: 17px;
 }
 
+.buttonload {
+    background-color: #04AA6D; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px /* Set a font size */
+  }
 
 /*MEDIA QUERYS*/
 @media screen and (max-width: 992.9px) {
@@ -496,5 +503,12 @@ hr {
         flex-direction: row;
         justify-content: center;
         gap: 20px;
+    }
+    .navis-links {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
     }
 }
