@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-<img src="./Assets/Imgs/Admin-db" alt="exemplo imagem">
+<img src="./Assets/Imgs/Admin-db.png" alt="exemplo imagem">
 
 > Modelo de Dashboard Administrativa.
 ### Ajustes e melhorias
